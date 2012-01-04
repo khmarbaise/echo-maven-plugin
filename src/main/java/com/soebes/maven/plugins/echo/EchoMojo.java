@@ -1,8 +1,8 @@
 /**
- * The Maven License Verifier Plugin
+ * The Maven Echo Plugin
  *
- * Copyright (c) 2009, 2010, 2011 by SoftwareEntwicklung Beratung Schulung (SoEBeS)
- * Copyright (c) 2009, 2010, 2011 by Karl Heinz Marbaise
+ * Copyright (c) 2012 by SoftwareEntwicklung Beratung Schulung (SoEBeS)
+ * Copyright (c) 2012 by Karl Heinz Marbaise
  *
  * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
@@ -19,26 +19,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.soebes.maven.plugins.mlv;
+package com.soebes.maven.plugins.echo;
 
-import java.util.Comparator;
+import org.apache.maven.plugin.MojoExecutionException;
 
-import com.soebes.maven.plugins.mlv.licenses.LicenseInformation;
 
 /**
- * The comparator for the artifacts.
  *
+ * @goal message
  * @author <a href="mailto:kama@soebes.de">Karl Heinz Marbaise</a>
- *
  */
-public class ArtifactComperator implements Comparator<LicenseInformation> {
+public class EchoMojo extends AbstractEchoPlugIn {
 
-    public int compare(LicenseInformation o1, LicenseInformation o2) {
-        int compareScope = o1.getArtifact().getScope().compareTo(o2.getArtifact().getScope());
-        if (compareScope == 0) {
-            return o1.getArtifact().getId().compareTo(o2.getArtifact().getId());
-        }
-        return compareScope;
+    public void execute() throws MojoExecutionException {
+
     }
 
 }

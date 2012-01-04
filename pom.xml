@@ -66,7 +66,7 @@
   <scm>
     <connection>scm:git:git://github.com/khmarbaise/Maven-Echo-Plugin.git</connection>
     <developerConnection>scm:git:git@github.com:khmarbaise/Maven-Echo-Plugin.git</developerConnection>
-    <url>https://github.com/khmarbaise/Maven-License-Verifier-Plugin</url>
+    <url>https://github.com/khmarbaise/Maven-Echo-Plugin</url>
   </scm>
 
   <distributionManagement>
