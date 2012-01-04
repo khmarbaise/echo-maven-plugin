@@ -254,7 +254,7 @@
       <!-- May be we should change to JUnit -->
       <groupId>org.testng</groupId>
       <artifactId>testng</artifactId>
-      <version>6.3.16</version>
+      <version>6.3.1</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
