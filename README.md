@@ -43,7 +43,9 @@ The first and simplest usage is to configure the Maven Licenses Verifier Plugin
         </execution>
       </executions>
       <configuration>
-        <messages>This is the Text which will be printed out.</messages>
+        <echos>
+          <echo>This is the Text which will be printed out.</echo>
+        </echos>
       </configuration>
     </plugin>
 
@@ -59,11 +61,6 @@ settings.xml file to make life a little bit easier.
       </pluginGroups>
       ...
     </settings>
-
-The above setting makes it possible to call the plugin on command 
-line simply:
-
-  mvn -Dmessage="This is a Test" echo:show
 
 
 ## Reporting about Licenses
