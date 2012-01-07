@@ -30,16 +30,14 @@
 
 Maven Echo Plugin
 
-
-  The basic idea of the Maven Echo Plugin (MEP for short) is to
-  print out messages during a Maven build.
+  Aren't you sometimes in the situation to print out something usefull during
+  a Maven build? I had been in the situation so this was the reason to write this
+  simple plugin.
 
 * Goals Overview
 
 
 * Usage
-
-
 
 +-----
 <project>
@@ -52,11 +50,74 @@ Maven Echo Plugin
         <version>${project.version}</version>
         <executions>
           <execution>
+            <id>echo-first-time</id>
+            <phase>validate</phase>
             <goals>
-              <goal>verify</goal>
+              <goal>echo</goal>
             </goals>
             <configuration>
-              <messages>This is the test message ${project.version}</message>
+              <echos>
+                <echo>This message is very early in the build process.</echo>
+              </echos>
+            </configuration>
+          </execution>
+          <execution>
+            <id>echo-info</id>
+            <phase>prepare-package</phase>
+            <goals>
+              <goal>echo</goal>
+            </goals>
+            <configuration>
+              <echos>
+                <echo>This is line Nr. 1</echo>
+                <echo>This is line Nr. 2</echo>
+                <echo>This is line Nr. 3</echo>
+              </echos>
+            </configuration>
+          </execution>
+          <execution>
+            <id>echo-warning</id>
+            <phase>prepare-package</phase>
+            <goals>
+              <goal>echo</goal>
+            </goals>
+            <configuration>
+              <logLevel>WARNING</logLevel>
+              <echos>
+                <echo>Warning: This is line Nr. 1</echo>
+                <echo>Warning: This is line Nr. 2</echo>
+                <echo>Warning: This is line Nr. 3</echo>
+              </echos>
+            </configuration>
+          </execution>
+          <execution>
+            <id>echo-error</id>
+            <phase>prepare-package</phase>
+            <goals>
+              <goal>echo</goal>
+            </goals>
+            <configuration>
+              <logLevel>ERROR</logLevel>
+              <echos>
+                <echo>ERROR: This is line Nr. 1</echo>
+                <echo>ERROR: This is line Nr. 2</echo>
+                <echo>ERROR: This is line Nr. 3</echo>
+              </echos>
+            </configuration>
+          </execution>
+          <execution>
+            <id>echo-debug</id>
+            <phase>prepare-package</phase>
+            <goals>
+              <goal>echo</goal>
+            </goals>
+            <configuration>
+              <logLevel>DEBUG</logLevel>
+              <echos>
+                <echo>DEBUG: This is line Nr. 1</echo>
+                <echo>DEBUG: This is line Nr. 2</echo>
+                <echo>DEBUG: This is line Nr. 3</echo>
+              </echos>
             </configuration>
           </execution>
         </executions>

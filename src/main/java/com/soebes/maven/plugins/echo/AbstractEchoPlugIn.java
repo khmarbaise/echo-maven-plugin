@@ -21,12 +21,7 @@
  */
 package com.soebes.maven.plugins.echo;
 
-import java.util.List;
-
-import org.apache.maven.artifact.repository.ArtifactRepository;
 import org.apache.maven.plugin.AbstractMojo;
-import org.apache.maven.project.MavenProject;
-import org.apache.maven.project.MavenProjectBuilder;
 
 /**
  * @author <a href="mailto:kama@soebes.de">Karl Heinz Marbaise</a>
@@ -34,46 +29,10 @@ import org.apache.maven.project.MavenProjectBuilder;
 public abstract class AbstractEchoPlugIn extends AbstractMojo {
 
     /**
-     * The Maven project.
-     *
-     * @parameter expression="${project}"
-     * @required
-     * @readonly
-     */
-    protected MavenProject project;
-
-    /**
-     * Used to build a maven projects from artifacts in the remote repository.
-     *
-     * @component
-     * @required
-     * @readonly
-     */
-    protected MavenProjectBuilder projectBuilder;
-
-    /**
-     * Location of the local repository.
-     *
-     * @parameter expression="${localRepository}"
-     * @readonly
-     * @required
-     */
-    protected ArtifactRepository localRepository;
-
-    /**
-     * List of Remote Repositories used by the resolver
-     *
-     * @parameter expression="${project.remoteArtifactRepositories}"
-     * @readonly
-     * @required
-     */
-    protected List<ArtifactRepository> remoteRepositories;
-
-    /**
      * This will turn on verbose behavior and will print out
      * all information.
      *
-     * @parameter expression="${mlv.verbose}" default-value="false"
+     * @parameter default-value="false"
      */
     private boolean verbose;
 

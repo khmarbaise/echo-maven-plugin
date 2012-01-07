@@ -14,7 +14,6 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <mavenVersion>3.0.3</mavenVersion>
   </properties>
 
   <build>
@@ -25,10 +24,75 @@
         <version>@project.version@</version>
         <executions>
           <execution>
+            <id>echo-first-time</id>
+            <phase>validate</phase>
+            <goals>
+              <goal>echo</goal>
+            </goals>
+            <configuration>
+              <echos>
+                <echo>This message is very early in the build process.</echo>
+              </echos>
+            </configuration>
+          </execution>
+          <execution>
+            <id>echo-info</id>
             <phase>prepare-package</phase>
             <goals>
-              <goal>verify</goal>
+              <goal>echo</goal>
             </goals>
+            <configuration>
+              <echos>
+                <echo>This is line Nr. 1</echo>
+                <echo>This is line Nr. 2</echo>
+                <echo>This is line Nr. 3</echo>
+              </echos>
+            </configuration>
+          </execution>
+          <execution>
+            <id>echo-warning</id>
+            <phase>prepare-package</phase>
+            <goals>
+              <goal>echo</goal>
+            </goals>
+            <configuration>
+              <logLevel>WARNING</logLevel>
+              <echos>
+                <echo>Warning: This is line Nr. 1</echo>
+                <echo>Warning: This is line Nr. 2</echo>
+                <echo>Warning: This is line Nr. 3</echo>
+              </echos>
+            </configuration>
+          </execution>
+          <execution>
+            <id>echo-error</id>
+            <phase>prepare-package</phase>
+            <goals>
+              <goal>echo</goal>
+            </goals>
+            <configuration>
+              <logLevel>ERROR</logLevel>
+              <echos>
+                <echo>ERROR: This is line Nr. 1</echo>
+                <echo>ERROR: This is line Nr. 2</echo>
+                <echo>ERROR: This is line Nr. 3</echo>
+              </echos>
+            </configuration>
+          </execution>
+          <execution>
+            <id>echo-debug</id>
+            <phase>prepare-package</phase>
+            <goals>
+              <goal>echo</goal>
+            </goals>
+            <configuration>
+              <logLevel>DEBUG</logLevel>
+              <echos>
+                <echo>DEBUG: This is line Nr. 1</echo>
+                <echo>DEBUG: This is line Nr. 2</echo>
+                <echo>DEBUG: This is line Nr. 3</echo>
+              </echos>
+            </configuration>
           </execution>
         </executions>
       </plugin>
