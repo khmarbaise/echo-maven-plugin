@@ -28,7 +28,7 @@ Exactly for such situations the Maven Echo Plugin is intended.
 
 ## Usage
 
-The first and simplest usage is to configure the Maven Licenses Verifier Plugin
+The first and simplest usage is to configure the Maven Echo Plugin
 
     <plugin>
       <groupId>com.soebes.maven.plugins</groupId>
