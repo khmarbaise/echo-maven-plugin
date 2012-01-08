@@ -2,7 +2,7 @@
 
 # Overview
 
-If you are working with Maven it often happens that you come to the point
+If you are working with Maven it sometimes happens that you come to the point
 where you get the feeling to print out some kind of message during the build.
 But how can you do that? Some people think a second time and came to the 
 Maven-AntRun-Plugin and use some ant task. But why does not exist
@@ -21,7 +21,7 @@ Exactly for such situations the Maven Echo Plugin is intended.
 
 ## Status
 
- * First Idea
+ * First working implementation.
 
 
 ## TODOs
@@ -38,7 +38,7 @@ The first and simplest usage is to configure the Maven Licenses Verifier Plugin
         <execution>
           <phase>initialization</phase>
           <goals>
-            <goal>print</goal>
+            <goal>echo</goal>
           </goals>
         </execution>
       </executions>
@@ -61,12 +61,4 @@ settings.xml file to make life a little bit easier.
       </pluginGroups>
       ...
     </settings>
-
-
-## Reporting about Licenses
-
-
-
-Examples
---------
 
