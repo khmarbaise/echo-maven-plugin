@@ -30,12 +30,11 @@
 
 Maven Echo Plugin
 
-  Aren't you sometimes in the situation to print out something usefull during
-  a Maven build? I had been in the situation so this was the reason to write this
-  simple plugin.
-
-* Goals Overview
-
+  Aren't you sometimes in the situation to print out something useful during
+  a Maven build? What was the default answer to solve this? Yes use the 
+  {{{http://maven.apache.org/plugins/maven-antrun-plugin/}Maven-AntRun plugin}} 
+  and do the output via Ant-Task. So to solve this problem in a Maven way i wrote
+  this little plugin.
 
 * Usage
 
