@@ -22,6 +22,7 @@
 package com.soebes.maven.plugins.echo;
 
 import org.apache.maven.plugin.AbstractMojo;
+import org.apache.maven.plugins.annotations.Parameter;
 
 /**
  * @author <a href="mailto:kama@soebes.de">Karl Heinz Marbaise</a>
@@ -32,8 +33,8 @@ public abstract class AbstractEchoPlugIn extends AbstractMojo {
      * This will turn on verbose behavior and will print out
      * all information.
      *
-     * @parameter default-value="false"
      */
+    @Parameter(defaultValue="false")
     private boolean verbose;
 
     public void setVerbose(boolean verbose) {

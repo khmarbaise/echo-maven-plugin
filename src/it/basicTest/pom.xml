@@ -31,7 +31,7 @@
             </goals>
             <configuration>
               <echos>
-                <echo>This message is very early in the build process.</echo>
+                <echo>             This message is very early in the build process.     </echo>
               </echos>
             </configuration>
           </execution>
@@ -91,6 +91,19 @@
                 <echo>DEBUG: This is line Nr. 1</echo>
                 <echo>DEBUG: This is line Nr. 2</echo>
                 <echo>DEBUG: This is line Nr. 3</echo>
+              </echos>
+            </configuration>
+          </execution>
+          <execution>
+            <id>echo-with-spaces</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>echo</goal>
+            </goals>
+            <configuration>
+              <logLevel>INFO</logLevel>
+              <echos>
+                <echo xml:space="preserve">      XXX YYY ZZ</echo>
               </echos>
             </configuration>
           </execution>

@@ -24,13 +24,14 @@ package com.soebes.maven.plugins.echo;
 import java.util.List;
 
 import org.apache.maven.plugin.MojoExecutionException;
+import org.apache.maven.plugins.annotations.Mojo;
+import org.apache.maven.plugins.annotations.Parameter;
 
 
 /**
- * @goal echo
  * @author <a href="mailto:kama@soebes.de">Karl Heinz Marbaise</a>
- * @threadsafe
  */
+@Mojo(name="echo", requiresProject = true, threadSafe=true)
 public class EchoMojo extends AbstractEchoPlugIn {
 
 	/**
@@ -55,9 +56,8 @@ public class EchoMojo extends AbstractEchoPlugIn {
 	 * <li>DEBUG<li>
 	 * </ul>
 	 * 
-	 * @parameter default-value="INFO"
-	 * @required
 	 */
+	@Parameter(defaultValue="INFO", required=true)
 	private LogLevels logLevel;
 	
 	/**
@@ -74,9 +74,8 @@ public class EchoMojo extends AbstractEchoPlugIn {
 	 *    ..
 	 * </pre>
 	 *
-     * @parameter
-     * @required
      */
+	@Parameter(required = true)
     private List<String> echos;
 
     /* (non-Javadoc)
