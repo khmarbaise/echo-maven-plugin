@@ -23,7 +23,6 @@ Exactly for such situations the Maven Echo Plugin is intended.
 
  * First working implementation.
 
-
 ## TODOs
 
 ## Usage
