@@ -1,5 +1,7 @@
 # Maven Echo Plugin
 
+[![Build Status](https://buildhive.cloudbees.com/job/khmarbaise/job/Maven-Echo-Plugin/badge/icon)](https://buildhive.cloudbees.com/job/khmarbaise/job/Maven-Echo-Plugin/)
+
 # Overview
 
 If you are working with Maven it sometimes happens that you come to the point
