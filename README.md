@@ -33,7 +33,7 @@ The first and simplest usage is to configure the Maven Echo Plugin
 
     <plugin>
       <groupId>com.soebes.maven.plugins</groupId>
-      <artifactId>maven-echo-plugin</artifactId>
+      <artifactId>echo-maven-plugin</artifactId>
       <version>0.1</version>
       <executions>
         <execution>
