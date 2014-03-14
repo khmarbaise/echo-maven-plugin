@@ -33,8 +33,8 @@ The first and simplest usage is to configure the Maven Echo Plugin
 
     <plugin>
       <groupId>com.soebes.maven.plugins</groupId>
-      <artifactId>echo-maven-plugin</artifactId>
-      <version>0.1</version>
+      <artifactId>echo-maven--plugin</artifactId>
+      <version>0.2</version>
       <executions>
         <execution>
           <phase>initialization</phase>
@@ -49,6 +49,15 @@ The first and simplest usage is to configure the Maven Echo Plugin
         </echos>
       </configuration>
     </plugin>
+
+
+ATTENTION:
+
+  Starting with version 0.2 of the maven-echo-plugin has been
+  renamed to echo-maven-plugin according to the Apache Maven Trademarks.
+  
+  http://maven.apache.org/guides/plugin/guide-java-plugin-development.html
+
 
 ## Settings Configuration
 
