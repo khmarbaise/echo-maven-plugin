@@ -5,7 +5,7 @@
   <parent>
     <groupId>com.soebes.smpp</groupId>
     <artifactId>smpp</artifactId>
-    <version>0.6.4</version>
+    <version>0.6.5</version>
   </parent>
 
   <groupId>com.soebes.maven.plugins</groupId>
@@ -30,9 +30,7 @@
   </ciManagement>
 
   <properties>
-    <mavenVersion>3.0.3</mavenVersion>
-    <!-- all kind of resources etc. will be UTF-8 encoded -->
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <mavenVersion>3.0.5</mavenVersion>
   </properties>
 
   <prerequisites>
@@ -161,7 +159,7 @@
     <dependency>
       <groupId>org.apache.maven</groupId>
       <artifactId>maven-plugin-api</artifactId>
-      <version>3.0.3</version>
+      <version>${mavenVersion}</version>
     </dependency>
 
     <dependency>
@@ -304,7 +302,6 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-invoker-plugin</artifactId>
-            <version>1.8</version>
             <configuration>
               <debug>false</debug>
               <projectsDirectory>src/it</projectsDirectory>
