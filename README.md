@@ -34,7 +34,7 @@ The first and simplest usage is to configure the Maven Echo Plugin
     <plugin>
       <groupId>com.soebes.maven.plugins</groupId>
       <artifactId>echo-maven-plugin</artifactId>
-      <version>0.2</version>
+      <version>0.3</version>
       <executions>
         <execution>
           <phase>initialization</phase>
@@ -57,6 +57,42 @@ ATTENTION:
   renamed to echo-maven-plugin according to the Apache Maven Trademarks.
   
   http://maven.apache.org/guides/plugin/guide-java-plugin-development.html
+
+##Format
+
+    <plugin>
+      <groupId>com.soebes.maven.plugins</groupId>
+      <artifactId>echo-maven-plugin</artifactId>
+      <version>0.3</version>
+      <executions>
+        <execution>
+          <phase>initialization</phase>
+          <goals>
+            <goal>format</goal>
+          </goals>
+        </execution>
+      </executions>
+      <configuration>
+      	<format>%05d</format>
+      	<integer>200</integer>
+      </configuration>
+    </plugin>
+
+
+Multiple formats
+
+      <configuration>
+      	<formats>
+      		<format>%03s</format>
+      		<format>%03s</format>
+      		<format>%03s</format>
+      	</formats>
+      	<integers>
+      		<integer>1</integer>
+      		<integer>2</integer>
+      		<integer>3</integer>
+      	</integers>
+      </configuration>
 
 
 ## Settings Configuration
