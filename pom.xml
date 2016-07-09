@@ -11,7 +11,7 @@
   <groupId>com.soebes.maven.plugins</groupId>
   <artifactId>echo-maven-plugin</artifactId>
   <packaging>maven-plugin</packaging>
-  <version>0.3.0</version>
+  <version>0.3.1-SNAPSHOT</version>
   <name>Maven Echo Plugin</name>
   <url>https://github.com/khmarbaise/Maven-Echo-Plugin</url>
 
@@ -32,7 +32,7 @@
     <connection>scm:git:https://github.com/khmarbaise/Maven-Echo-Plugin.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/khmarbaise/Maven-Echo-Plugin.git</developerConnection>
     <url>https://github.com/khmarbaise/Maven-Echo-Plugin</url>
-    <tag>echo-maven-plugin-0.3.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <distributionManagement>
