@@ -116,4 +116,5 @@ settings.xml file to make life a little bit easier.
 [maven-central]: http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.soebes.maven.plugins%22%20a%3A%22Maven-Echo-Plugin%22
 [build-status]: https://travis-ci.org/khmarbaise/Maven-Echo-Plugin.svg?branch=master
 [shield-central]: https://img.shields.io/maven-central/v/com.soebes.maven.plugins/Maven-Echo-Plugin.svg?label=Maven%20Central
+[travis-ci]: https://travis-ci.org/khmarbaise/Maven-Echo-Plugin
 [shield-license]: https://img.shields.io/github/license/khmarbaise/iterator-maven-plugin.svg?label=License
