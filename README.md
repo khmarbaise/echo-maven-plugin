@@ -12,7 +12,7 @@ But how can you do that? Some people think a second time and came to the
 Maven-AntRun-Plugin and use some ant task. But why does not exist
 a simple small plugin which can simply print out some kind of messages.
 
-Exactly for such situations the Maven Echo Plugin is intended.
+Exactly for such situations the Echo Maven Plugin is intended.
 
 
 ## License
@@ -21,7 +21,7 @@ Exactly for such situations the Maven Echo Plugin is intended.
 
 ## Issue Tracker
 
-[The Issue Tracker](https://github.com/khmarbaise/Maven-Echo-Plugin/issues)
+[The Issue Tracker](https://github.com/khmarbaise/echo-maven-plugin/issues)
 
 ## Status
 
@@ -113,8 +113,9 @@ settings.xml file to make life a little bit easier.
       ...
     </settings>
 
-[maven-central]: http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.soebes.maven.plugins%22%20a%3A%22Maven-Echo-Plugin%22
-[build-status]: https://travis-ci.org/khmarbaise/Maven-Echo-Plugin.svg?branch=master
-[shield-central]: https://img.shields.io/maven-central/v/com.soebes.maven.plugins/Maven-Echo-Plugin.svg?label=Maven%20Central
-[travis-ci]: https://travis-ci.org/khmarbaise/Maven-Echo-Plugin
-[shield-license]: https://img.shields.io/github/license/khmarbaise/iterator-maven-plugin.svg?label=License
+[maven-central]: http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.soebes.maven.plugins%22%20a%3A%22echo-maven-plugin%22
+[build-status]: https://travis-ci.org/khmarbaise/echo-maven-plugin.svg?branch=master
+[shield-central]: https://img.shields.io/maven-central/v/com.soebes.maven.plugins/echo-maven-plugin.svg?label=Maven%20Central
+[travis-ci]: https://travis-ci.org/khmarbaise/echo-maven-plugin
+[shield-license]: https://img.shields.io/github/license/khmarbaise/echechoo-maven-plugin.svg?label=License
+
