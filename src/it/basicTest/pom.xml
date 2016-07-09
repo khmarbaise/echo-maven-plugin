@@ -107,6 +107,19 @@
               </echos>
             </configuration>
           </execution>
+          <execution>
+            <id>echo-from-cli</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>echo</goal>
+            </goals>
+            <configuration>
+              <logLevel>INFO</logLevel>
+              <echos>
+                <echo>information: '${information}'</echo>
+              </echos>
+            </configuration>
+          </execution>
         </executions>
       </plugin>
     </plugins>
