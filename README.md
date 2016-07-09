@@ -118,4 +118,4 @@ settings.xml file to make life a little bit easier.
 [shield-central]: https://img.shields.io/maven-central/v/com.soebes.maven.plugins/echo-maven-plugin.svg?label=Maven%20Central
 [travis-ci]: https://travis-ci.org/khmarbaise/echo-maven-plugin
 [shield-license]: https://img.shields.io/github/license/khmarbaise/echo-maven-plugin.svg?label=License
-
+[apache-license]: https://www.apache.org/licenses/
