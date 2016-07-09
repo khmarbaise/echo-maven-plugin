@@ -1,6 +1,8 @@
 # Maven Echo Plugin
 
-[![Build Status](https://buildhive.cloudbees.com/job/khmarbaise/job/Maven-Echo-Plugin/badge/icon)](https://buildhive.cloudbees.com/job/khmarbaise/job/Maven-Echo-Plugin/)
+[![Apache License, Version 2.0, January 2004][shield-license]][apache-license]
+[![Build Status][build-status]][travis-ci]
+[![Maven Central][shield-central]][maven-central]
 
 # Overview
 
@@ -34,7 +36,7 @@ The first and simplest usage is to configure the Maven Echo Plugin
     <plugin>
       <groupId>com.soebes.maven.plugins</groupId>
       <artifactId>echo-maven-plugin</artifactId>
-      <version>0.3</version>
+      <version>0.3.0</version>
       <executions>
         <execution>
           <phase>initialization</phase>
@@ -58,7 +60,11 @@ ATTENTION:
   
   http://maven.apache.org/guides/plugin/guide-java-plugin-development.html
 
-##Format
+
+Ideas
+-----
+
+Format goal:
 
     <plugin>
       <groupId>com.soebes.maven.plugins</groupId>
@@ -77,7 +83,6 @@ ATTENTION:
       	<integer>200</integer>
       </configuration>
     </plugin>
-
 
 Multiple formats
 
@@ -108,3 +113,7 @@ settings.xml file to make life a little bit easier.
       ...
     </settings>
 
+[maven-central]: http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.soebes.maven.plugins%22%20a%3A%22Maven-Echo-Plugin%22
+[build-status]: https://travis-ci.org/khmarbaise/Maven-Echo-Plugin.svg?branch=master
+[shield-central]: https://img.shields.io/maven-central/v/com.soebes.maven.plugins/Maven-Echo-Plugin.svg?label=Maven%20Central
+[shield-license]: https://img.shields.io/github/license/khmarbaise/iterator-maven-plugin.svg?label=License
