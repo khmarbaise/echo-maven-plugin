@@ -39,7 +39,7 @@ The first and simplest usage is to configure the Maven Echo Plugin
       <version>0.3.0</version>
       <executions>
         <execution>
-          <phase>initialization</phase>
+          <phase>initialize</phase>
           <goals>
             <goal>echo</goal>
           </goals>
@@ -72,7 +72,7 @@ Format goal:
       <version>0.3</version>
       <executions>
         <execution>
-          <phase>initialization</phase>
+          <phase>initialize</phase>
           <goals>
             <goal>format</goal>
           </goals>
