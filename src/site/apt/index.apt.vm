@@ -1,8 +1,8 @@
 ~~
-~~ The Maven Echo Plugin
+~~ The Echo Maven Plugin
 ~~
-~~ Copyright (c) 2012 by SoftwareEntwicklung Beratung Schulung (SoEBeS)
-~~ Copyright (c) 2012 by Karl Heinz Marbaise
+~~ Copyright (c) 2012-2020 by SoftwareEntwicklung Beratung Schulung (SoEBeS)
+~~ Copyright (c) 2012-2020 by Karl Heinz Marbaise
 ~~
 ~~ Licensed to the Apache Software Foundation (ASF) under one or more
 ~~ contributor license agreements.  See the NOTICE file distributed with
@@ -28,7 +28,7 @@
  2012-01-03
  ------
 
-Maven Echo Plugin
+Echo Maven Plugin
 
   Aren't you sometimes in the situation to print out something useful during
   a Maven build? What was the default answer to solve this? Yes use the 

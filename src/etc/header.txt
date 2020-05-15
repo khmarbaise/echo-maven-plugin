@@ -1,4 +1,4 @@
-The Maven Echo Plugin
+The Echo Maven Plugin
 
 Copyright (c) ${year} by SoftwareEntwicklung Beratung Schulung (SoEBeS)
 Copyright (c) ${year} by Karl Heinz Marbaise

@@ -1,4 +1,4 @@
-# Maven Echo Plugin
+# Echo Maven Plugin
 
 [![Apache License, Version 2.0, January 2004][shield-license]][apache-license]
 [![Maven Central][shield-central]][central-search]
@@ -33,7 +33,7 @@ Exactly for such situations the Echo Maven Plugin is intended.
 
 ## Usage
 
-The first and simplest usage is to configure the Maven Echo Plugin
+The first and simplest usage is to configure the Echo Maven Plugin
 
     <plugin>
       <groupId>com.soebes.maven.plugins</groupId>
@@ -55,16 +55,12 @@ The first and simplest usage is to configure the Maven Echo Plugin
     </plugin>
 
 
-ATTENTION:
+## Hint
 
   Starting with version 0.2 of the maven-echo-plugin has been
-  renamed to echo-maven-plugin according to the Apache Maven Trademarks.
-  
-  http://maven.apache.org/guides/plugin/guide-java-plugin-development.html
+  renamed to `echo-maven-plugin` according to the [Apache Maven Trademarks](https://maven.apache.org/guides/plugin/guide-java-plugin-development.html).
 
-
-Ideas
------
+## Ideas
 
 Format goal:
 
@@ -105,7 +101,7 @@ Multiple formats
 ## Settings Configuration
 
 If you like you can configure an appropriate plugin group in your
-settings.xml file to make life a little bit easier.
+`settings.xml` file to make life a little bit easier.
 
     <settings>
       ...

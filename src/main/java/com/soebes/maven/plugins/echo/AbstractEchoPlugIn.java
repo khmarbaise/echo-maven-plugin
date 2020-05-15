@@ -1,8 +1,8 @@
 /**
- * The Maven License Verifier Plugin
+ * The Echo Maven Plugin
  *
- * Copyright (c) 2009, 2010, 2011 by SoftwareEntwicklung Beratung Schulung (SoEBeS)
- * Copyright (c) 2009, 2010, 2011 by Karl Heinz Marbaise
+ * Copyright (c) 2009-2020 by SoftwareEntwicklung Beratung Schulung (SoEBeS)
+ * Copyright (c) 2009-2020 by Karl Heinz Marbaise
  *
  * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
