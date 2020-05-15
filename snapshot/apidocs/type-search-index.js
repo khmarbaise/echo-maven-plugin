@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"com.soebes.maven.plugins.echo","l":"AbstractEchoPlugIn"},{"l":"All Classes","url":"allclasses-index.html"},{"p":"com.soebes.maven.plugins.echo","l":"EchoMojo"},{"p":"com.soebes.maven.plugins.echo","l":"FormatMojo"},{"p":"com.soebes.maven.plugins.echo","l":"HelpMojo"},{"p":"com.soebes.maven.plugins.echo","l":"EchoMojo.LogLevels"}]
