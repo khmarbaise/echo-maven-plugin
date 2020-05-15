@@ -63,6 +63,24 @@
 
   </dependencies>
 
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-scm-publish-plugin</artifactId>
+          <configuration>
+            <!--
+             ! The directory where to put the SNAPSHOT of master.
+             ! which is deployed by GitHub action (deploy.yml).
+             ! So we ignore  this directory simply.
+            -->
+            <ignorePathsToDelete>snapshot</ignorePathsToDelete>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
   <profiles>
     <profile>
       <id>run-its</id>
