@@ -1,8 +1,10 @@
 # Maven Echo Plugin
 
 [![Apache License, Version 2.0, January 2004][shield-license]][apache-license]
-[![Build Status][build-status]][travis-ci]
-[![Maven Central][shield-central]][maven-central]
+[![Maven Central][shield-central]][central-search]
+[![JDKBuilds](https://github.com/khmarbaise/echo-maven-plugin/workflows/JDKBuilds/badge.svg)][jdkbuilds]
+[![Main](https://github.com/khmarbaise/echo-maven-plugin/workflows/Main/badge.svg)][mainbuilds]
+[![Site](https://github.com/khmarbaise/echo-maven-plugin/workflows/SitePublishing/badge.svg)][published-site]
 
 # Overview
 
@@ -116,6 +118,9 @@ settings.xml file to make life a little bit easier.
 [maven-central]: http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.soebes.maven.plugins%22%20a%3A%22echo-maven-plugin%22
 [build-status]: https://travis-ci.org/khmarbaise/echo-maven-plugin.svg?branch=master
 [shield-central]: https://img.shields.io/maven-central/v/com.soebes.maven.plugins/echo-maven-plugin.svg?label=Maven%20Central
-[travis-ci]: https://travis-ci.org/khmarbaise/echo-maven-plugin
 [shield-license]: https://img.shields.io/github/license/khmarbaise/echo-maven-plugin.svg?label=License
 [apache-license]: https://www.apache.org/licenses/
+[jdkbuilds]: https://github.com/khmarbaise/echo-maven-plugin/actions?query=workflow%3AJDKBuilds
+[mainbuilds]: https://github.com/khmarbaise/echo-maven-plugin/actions?query=workflow%3AMain
+[published-site]: https://khmarbaise.github.io/echo-maven-plugin/
+[central-search]: https://search.maven.org/search?q=%22com.soebes.maven.plugins%22%20AND%20a:%22echo-maven-plugin%22
