@@ -25,12 +25,6 @@ Exactly for such situations the Echo Maven Plugin is intended.
 
 [The Issue Tracker](https://github.com/khmarbaise/echo-maven-plugin/issues)
 
-## Status
-
- * First working implementation.
-
-## TODOs
-
 ## Usage
 
 The first and simplest usage is to configure the Echo Maven Plugin
