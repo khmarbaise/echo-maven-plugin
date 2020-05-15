@@ -22,6 +22,8 @@
   <properties>
     <smpp.component>Maven-Echo-Plugin</smpp.component>
     <mavenVersion>3.0</mavenVersion>
+    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.7</maven.compiler.source>
   </properties>
 
   <prerequisites>
